@@ -36,13 +36,19 @@ h1 {
     margin: auto;
     margin-top: 20px;
 }
-#addup, #all-clear {
-    background-color: black;
-    width: 200px;
+#addup, #clear {
+    background-color: rgb(80, 78, 78);
+    width: 120px;
     height: 25px;
     border-radius: 5px;
     border-style: none;
-    margin-right: 120px;
+    margin-right: 50px;
+    align-items: center;
+    cursor: pointer;
+    color: aliceblue;
+}
+#buttons {
+    display: inline-flex;
 }
 p {
     font-size: 20px;

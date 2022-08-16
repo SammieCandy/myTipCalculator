@@ -12,12 +12,14 @@
     <body>
         <h1><span id="perc">SO Tip</span> Calculator</h1>
         <form id="calculator">
-            <p>Bill Amount: <input id="amount"/></p>
-            <p>Tip percentage: <input id="percentage"/></p>
-            <p>Tip Amount: <input id="tip" disabled="disabled"/></p>
-            <p>Total: <input id="total" disabled="disabled"/></p>
-            <p><button id="calculate">Calculate</button></p> 
-            <p><input id="clear" type="button" value="all-clear"/></p>
+            <p>Bill Amount: <input id="amount" type="number"></p>
+            <p>Tip percentage: <input id="percentage"></p>
+            <p>Tip Amount: <input id="tip" type="number" disabled="disabled"></p>
+            <p>Total: <input id="output" type="number" disabled="disabled"></p> 
+            <div id="buttons">
+                <div id="addup" type="button">Calculate</div> <div id="clear" type="button">All clear</div>
+            </div>
+            
         </form>
         <script src="tipcalc.js"></script>
     </body>
